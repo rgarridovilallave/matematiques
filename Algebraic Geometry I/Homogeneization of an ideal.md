@@ -1,0 +1,1 @@
+Let $B$ be a graded ring, and $\mathfrak{a} \subseteq B$ an (nonhomogeneous) ideal. Its **homogeneization** is defined to be$$\mathfrak{a}^h := \bigoplus_d (B_d \cap \mathfrak{a}).$$

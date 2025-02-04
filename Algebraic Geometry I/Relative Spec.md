@@ -1,0 +1,4 @@
+Sigui $X$ un esquema. Hi ha una correspondència entre morfismes afins cap a $X$ i feixos quasi-coherents de $\mathcal{O}_X$-àlgebres. Està donada per:
+
+- Donat $f: Y \to X$ afí, construïm la $\mathcal{O}_X$-àlgebra com el feix d'anells $f_* \mathcal{O}_Y$ juntament amb l'estructura de mòdul $f^\sharp: \mathcal{O}_X \to f_* \mathcal{O}_Y$. És quasicoherent.
+- Recíprocament, donat $\mathcal{A}$ feix de $\mathcal{O}_X$-àlgebres, enganxem els següents: per cada $U \subseteq X$ obert afí, enganxem $Spec(\mathcal{A}(U))$. Ho fem segons les interseccions: si $U, V \subseteq X$ oberts afins, aleshores enganxem $Spec(\mathcal{A}(U))$ amb $Spec(\mathcal{A}(V))$ al llarg de $Spec(\mathcal{A}(U \cap V))$. És l'únic que satisfà la propietat: hi ha un morfisme $f: Spec(\mathcal{A}) \to X$ afí tal que, per cada $U \subseteq X$ obert afí, $f^{-1}(U) \cong Spec(\mathcal{A}(U))$.

@@ -1,0 +1,1 @@
+Let $(X,\mathcal{O}_X)$ be a scheme, and $x \in X$ a point. The **Zariski tangent space** of $(X,\mathcal{O}_X)$ at $x$ is defined to be the followingvector space over the residue field $k(x)$:$$T_x := (\mathfrak{m}_x/\mathfrak{m}_x^2)^* = Hom_{k(x)}(\mathfrak{m}_x/\mathfrak{m}_x^2, k(x)).$$

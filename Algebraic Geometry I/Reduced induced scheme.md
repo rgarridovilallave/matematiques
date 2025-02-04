@@ -1,0 +1,1 @@
+Donat un esquema $X$ i un subespai topològic $U \subseteq X$, existeix un feix en $U$ que denotem per $(\mathcal{O}_X|_U)_{red}$, de manera que l'esquema $(U, (\mathcal{O}_X|_U)_{red})$ és reduït (v. [[Scheme]]).
