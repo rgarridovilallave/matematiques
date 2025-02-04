@@ -18,7 +18,7 @@ One can take a good enough open covering $\{U_i\}_i$ of $X$. We can represent $D
 Any Cartier divisor in the image of $$H^0(X, \mathcal{K}_X^\times) \to H^0(X, \mathcal{K}_X^\times/\mathcal{O}_X^\times)$$is called a **principal** Cartier divisor. If $X$  is integral, then $$H^0(X,\mathcal{K}_X^\times) = K(X)^\times$$and hence this map is $f\mapsto (f)$ v. [[Principal Weil divisor]]
 
 Now consider the long exact sequence associated to the short exact sequence of the quotient $\mathcal{K}_X^\times/\mathcal{O}_X^\times$.
-- IF $X$ is proper, integral and $k$ is algebraically closed, then $H^0(X,\mathcal{O}_X^\times)$ = k$.
+- If $X$ is proper, integral and $k$ is algebraically closed, then $H^0(X,\mathcal{O}_X^\times) = k$.
 - If $X$ is integral, then $H^0(X,\mathcal{K}_X^\times) = K(X)^\times$.
 - $H^1(X,\mathcal{O}_X^\times) = Pic(X)$ v. [[Picard group]]
 

@@ -23,7 +23,7 @@ Take any $\{f_i \in \mathcal{K}_X(U_i)\}_i \in H^0(\mathcal{K}_X^\times/\mathcal
 
 **Step 2.** *Commutative algebra trick!*
 
-In particular $f_i \in (A_i)_\mathfrak{p}^\times$ for every prime ideal $\mathfrak{p} \subseteq A_i$ of height 1. ==If $A_i$ is integrally closed (no entenc per què ho podem utilitzar...)==, then$$f_i \in \bigcap_{ht(\mathfrak{p})=1} (A_i)_\mathfrak{p} = A_i = \mathcal{O}(U_i)^\times,$$so $\{f_i\}_i = 0$ in $H^0(\mathcal{K}_X^\times/\mathcal{O}_X^\times)$. **qed**
+In particular $f_i \in (A_i)_\mathfrak{p}^\times$ for every prime ideal $\mathfrak{p} \subseteq A_i$ of height 1. Normality of $X$ implies that $A_i$ is integrally closed and hence$$f_i \in \bigcap_{ht(\mathfrak{p})=1} (A_i)^\times_\mathfrak{p} = A_i^\times = \mathcal{O}(U_i)^\times,$$so $\{f_i\}_i = 0$ in $H^0(\mathcal{K}_X^\times/\mathcal{O}_X^\times)$. **qed**
 
 **Lemma 2 (Working locally towards surjectivity).** If $A$ is a factorial, integral domain, then $Cl(A) = Cl(Spec(A)) = 0$.
 
@@ -57,5 +57,4 @@ Let $Y \subseteq X$ be a prime divisor. Then$$(f_i)|_{U_{ij}} - (f_j)|_{U_{ij}} 
 
 $CaCl(X)$ is obtained from $H^0(X,\mathcal{K}_X^\times/\mathcal{O}_X^\times)$ by quotienting out the principal Cartier divisors, while $Cl(X)$ is obtained from $Div(X)$ by quotienting out Weil principal divisors. We have to check that, under the isomorphism above, these two classes of divisors are in bijection.
 
-If $D$ is a principal Cartier divisor $\{f_i = f|_{U_i}\}_i$, then its image is the principal Weil divisor 
-$(f) = (f)_0 - (f)_\infty$. **qed**
+If $D$ is a principal Cartier divisor $\{f_i = f|_{U_i}\}_i$, then its image is the principal Weil divisor $(f) = (f)_0 - (f)_\infty$. **qed**

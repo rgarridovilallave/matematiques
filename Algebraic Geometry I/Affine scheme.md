@@ -31,9 +31,9 @@ $D(b)$ és el conjunt d'ideals primers $\mathfrak{p} \subseteq B$ que no contene
 
 ## Finite modules
 
-Assume $\varphi: A \to B$ is a ring homomorphism, and $b_i \in B$ such that $(b_i)_i = B$. If $B_{b_i}$ is of finite type over $A$ (for all $i$), then also $B$ is of finite type over $A$.
+Assume $\varphi: A \to B$ is a ring homomorphism, and $b_i \in B$ such that $(b_i)_i = B$. If $B_{b_i}$ is of finite type over $A$ for every $i$, then also $B$ is a finite type over $A$.
 
-Recordem que "$B$ is of finite type over $A$" significa que "B is a finite $A$-module".
+Recordem que "$B$ is of finite type over $A$" significa que "B is a finitely generated $A$-algebra".
 
 **Interpretació geomètrica:** Let $f: Spec(B) \to Spec(A)$ be a morphism of affine schemes, and consider a finite open covering $\{D(b_i)\}_i$ of $B$. If each restriction $f|_{D(b_i)}$ makes $A \to B_{b_i}$ a finite $A$-module, then $f$ makes $A \to B$ a finite $A$-module.
 

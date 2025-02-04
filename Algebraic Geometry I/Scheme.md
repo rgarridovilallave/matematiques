@@ -14,6 +14,7 @@ Some extra properties:
 - **Noetherian:** Locally Noetherian + quasi-compact.
 - **Reduced:** For every open $U\subseteq X$, $\Gamma(U,\mathcal{O}_X)$ is reduced (i.e. the only nilpotent element is $0$). This is equivalent to $\mathcal{O}_{X,x}$ reduced for every $x$.
 - **Integral:** Every $\Gamma(U,\mathcal{O}_X)$ is an integral domain. Note that integral => reduced. Note that integral implies $\mathcal{O}_{X,x}$ integral, but the converse needn't hold.
+- **Normal:** A scheme is normal if all of its stalks $\mathcal{O}_{X,x}$ are normal (normal ring = integrally closed in its field of fractions).
 
 # Interpretació
 
