@@ -339,7 +339,7 @@ Let $f: X \to Spec(A)$ be projective, with $A$ Noetherian, and $\mathcal{O}_X(1)
 
 *Proof.*
 
-***Reduction.*** *Reduce everything to projective spaces, i.e. $X = \mathbb{P}^m_A$, $\mathcal{F} \in Coh(\mathbb{P}^m_A)$. Then $\mathcal{F}|_{D_+(x_i)} = \tilde M_i$, $M_i =$ line bundle over $A[x_0/x_i, \dots, x_m/x_i]$, $M_i = H^0(D_+(x_i); \mathcal{F}) = \Gamma_*(\mathcal{F})_{(x_i)}$.*
+***Reduction.*** *Reduce everything to projective spaces, i.e. $X = \mathbb{P}^m_A$, $\mathcal{F} \in Coh(\mathbb{P}^m_A)$. Then $\mathcal{F}|_{D_+(x_i)} = \tilde M_i$, $M_i =$ line bundle over $A[x_0/x_i, \dots, x_m/x_i]$, $M_{i} = H^{0}(D_{+}(x_{i}); \mathcal{F}) = \Gamma_*(\mathcal{F})_{(x_{i})}$.*
 
 ## Theorem of Serre
 
@@ -494,7 +494,7 @@ Si tenim el reocbriment per afins $\{V_i\}_i$ de $Y$ tal que $f^{-1} V_i$ està 
 
 ## Monomorphism => Separated
 
-Si $f$ és un monomorfisme aleshores $\Delta_f: X \to X \times_Y X$ és un isomorfisme (?). Això implica que, en particular, és un closed embedding. **qed**
+Si $f$ és un monomorfisme aleshores $X$ satisfà la propietat universal del producte $X \times_Y X$ de manera que $\Delta_f: X \to X \times_Y X$ és un isomorfisme. Això implica que, en particular, és un closed embedding. **qed**
 
 # Exemples
 

@@ -54,6 +54,10 @@ $D_+(a) \subseteq D(a) \cong Spec(B_a) \to Spec(B_{(a)})$ where $B_{(a)}$ denote
 There exists a morphism of schemes $$Proj(B) \to Spec(B_0),\quad \mathfrak{p} \mapsto \mathfrak{p} \cap B_0.$$
 Locally we have$$D_+(a) \cong Spec(B_{(a)}) \to Spec(B_0),$$where the second one is induced by $B_0 \subseteq B_{(a)}$.
 
+## Morphism of schemes induced by a morphism of graded rings
+
+Let $\varphi: S_\bullet \to T_\bullet$ be a homomorphism of graded rings (preserving degrees). Let $U = \{\mathfrak{p} \in Proj(T) \mid \mathfrak{p} \nsupseteq \varphi(S_+)\}$. Then $\varphi$ induces a morphism $U \to Proj(S)$, i.e. a rational map $Proj(T) \to Proj(S)$. v. [[Rational map]]
+
 # Exemples
 
 ## Projective space
