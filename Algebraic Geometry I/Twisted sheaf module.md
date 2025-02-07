@@ -1,3 +1,5 @@
+**Proposta de traducció:** feix guerxo.
+
 Let $d \in \mathbb{Z}$ and $B$ a graded ring. Define the quasi-coherent module $\mathcal{O}(d) := \widetilde{B(d)}$ over $Proj(B)$ v. [[From modules to (quasi-coherent) sheaves of modules]].
 
 Recall $M(d)_e := B_{e+d}$.

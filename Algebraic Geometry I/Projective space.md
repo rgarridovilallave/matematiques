@@ -13,6 +13,10 @@ Let $X$ be a scheme. We want to define $\mathbb{P}^n_X$. Two options:
 
 # Propietats (geometria algebraica)
 
+## Global sections
+
+The global sections of the structure sheaf of $\mathbb{P}^n_A$ are isomorphic to $A$.
+
 ## Divisor class groups of the projective spaces
 
 Let $k$ be a field, and consider the projective spaces $\mathbb{P}^n_k$. Consider the hyperplane $H := V_+(X_0) \subseteq \mathbb{P}^n_k$. Then the divisor class group is abstractly isomorphic to $\mathbb{Z}$. We have the following generators, which correspond to each other under the isomorphism:

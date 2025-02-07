@@ -1,1 +1,1 @@
-Let $f: X \to Y$ be separated and of finite type, with $X$ and $Y$ Noetherian. There exists a factorisation of $X$ as $X \stackrel{h}{\to} Z \stackrel{g}{\to} Y$, with $h$ an open immersion and $g$ proper. v. [[Properties of morphisms of schemes]]
+Let $f: X \to Y$ be separated and of finite type, with $X$ and $Y$ Noetherian. There exists a factorisation of $X$ as $X \stackrel{h}{\to} Z \stackrel{g}{\to} Y$, with $h$ an open immersion and $g$ proper. v. [[Morphisms of schemes]]

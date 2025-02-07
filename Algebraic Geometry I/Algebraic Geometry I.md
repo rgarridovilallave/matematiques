@@ -17,7 +17,7 @@
 - [[Sheaf cohomology]]
 - [[Flasque (flabby) sheaf]]
 - [[Cohomologia de Cech]]
-- [[Cech complex of sheaves]]
+- [[Cech resolution of sheaves]]
 - [[Coordinate-free Cech cohomology]]
 
 # 2. Scheme theory
@@ -33,7 +33,7 @@
 ## 2.2. Morphisms of schemes
 
 - [[Separated morphism of schemes]]
-- [[Properties of morphisms of schemes]]
+- [[Morphisms of schemes]]
 - [[Nagata's compactification]]
 - [[Magic square]]
 - [[Graph of a morphism of schemes]]
@@ -63,7 +63,7 @@
 
 - [[Very ample sheaf]]
 - [[Globally generated sheaf]]
-- [[Serre's vanishing theorem]]
+- [[Serre's vanishing theorems]]
 - [[Segre embedding]]
 
 ## 3.3. Invertibel sheaves

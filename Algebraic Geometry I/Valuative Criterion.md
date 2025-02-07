@@ -12,7 +12,7 @@ where $k$ is a valuation field (v. [[Valuation of a field]]), and $\mathcal{O}_\
 
 Moreover, if $Y$ is also Noetherian, it suffices to check the diagrams with [[Discrete valuation ring]].
 
-v. [[Properties of morphisms of schemes]]
+v. [[Morphisms of schemes]]
 
 *Nota:* Observem que l'existència de lifts és una condició **local**.
 

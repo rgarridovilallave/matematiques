@@ -151,6 +151,26 @@ The sheaf property (v. [[Sheaf]]) gives$$0 \to \mathcal{F} \stackrel{restr.}{\lo
 
 Apply the left exact functor $f_*$. The two terms on the right are quasi-coherent. We deduce that $f_* \mathcal{F}$ is quasi-coherent. **qed**
 
+### Finite morphism between Noetherian schemes
+
+If $f: X \to Y$ is a finite morphism between Noetherian schemes, then $f_*(Coh) = Coh$.
+
+v. [[Morphisms of schemes]]
+
+v. [[Hartshorne]] II Ex. 5.5.
+
+*Proof.*
+
+Consider $U = Spec(A)$ open in $Y$ such that $f^{-1}(U) = Spec(B)$ making $B$ a finite $A$-module.
+
+Since $\mathcal{F}$ is coherent, $\mathcal{F}|_{f^{-1}(U)} = \widetilde{M}$ for some finitely generated $B$-module $M$. Hence, $f_* \mathcal{F}|_U = \widetilde{{}_AM}$, which is finitely generated as an $A$-module. **qed**
+
+A on estic utilitzant la **noetherianitat** ????????
+
+## Global sections of quasicoherent sheaves on projective schemes
+
+v. [[Proj]] "global sections"
+
 ## Quasi-coherent sheaves live inside flabby & quasicoherent sheaves
 
 Let $X$ be a ==Noetherian== scheme, and $\mathcal{F} \in QCoh(X)$. There exists an injective $\mathcal{F} \to \mathcal{I}$, with $\mathcal{I}$ quasi-coherent and flabby.
@@ -183,7 +203,7 @@ $X$ separated => $U_{i_1,\dots, i_j}$ affine.
 
 This implies (and also the fact that $\mathcal{F}$ is quasi-coherented) that $H^*(U_{i_1,\dots,i_j},\mathcal{F}) = 0$ for all $i>0$.
 
-We deduce the bijection from a property of Check cohomology. **qed**
+We deduce the bijection from a property of Cech cohomology. **qed**
 
 ## Kernel, cokernel and image (abelian categories?)
 

@@ -10,7 +10,7 @@ Some extra properties:
 - **Quasi-compact:** Every open covering of $X$ has a finite open subcovering.
 
 ***Scheme theoretic properties:***
-- **Locally Noetherian:** $X$ can be covered by schemes $Spec(A_i)$ with $A_i$ Noetherian.
+- **Locally Noetherian:** $X$ can be covered by schemes $Spec(A_i)$ with $A_i$ Noetherian v. [[Noetherian ring]].
 - **Noetherian:** Locally Noetherian + quasi-compact.
 - **Reduced:** For every open $U\subseteq X$, $\Gamma(U,\mathcal{O}_X)$ is reduced (i.e. the only nilpotent element is $0$). This is equivalent to $\mathcal{O}_{X,x}$ reduced for every $x$.
 - **Integral:** Every $\Gamma(U,\mathcal{O}_X)$ is an integral domain. Note that integral => reduced. Note that integral implies $\mathcal{O}_{X,x}$ integral, but the converse needn't hold.

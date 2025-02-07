@@ -16,8 +16,8 @@ v. [[The Rising Sea]] 15.3.3.
 
 ## Quasicoherent sheaves on affine schemes
 
-Tot feix quasicoherent en un esquema està globally generated. Això prové de l'equivalència amb $A$-mòduls (v. [[From modules to (quasi-coherent) sheaves of modules]]). Senzillament cal prendre un sistema de generadors de $M$ com a $A$-mòdul, on $\tilde M$ és el feix quasicoherent en qüestió.
+Tot feix quasicoherent en un esquema **afí** està globally generated. Això prové de l'equivalència amb $A$-mòduls (v. [[From modules to (quasi-coherent) sheaves of modules]]). Senzillament cal prendre un sistema de generadors de $M$ com a $A$-mòdul, on $\tilde M$ és el feix quasicoherent en qüestió.
 
-## Feix torçat $\mathcal{O}_X(1)$
+## Feix guerxo $\mathcal{O}_X(1)$
 
-Considerem $X = Proj(S)$, on $S$ és un anell graduat que està generat per $S_1$ com a $S_0$-mòdul. Aleshores $\mathcal{O}_X(1)$ està globally generated, i un sistema de generadors ve donat pels elements de $S_1$.
+Considerem $X = Proj(S)$, on $S$ és un anell graduat que està generat per $S_1$ com a $S_0$-àlgebra. Aleshores $\mathcal{O}_X(1)$ està globally generated, i un sistema de generadors ve donat pels elements de $S_1$.

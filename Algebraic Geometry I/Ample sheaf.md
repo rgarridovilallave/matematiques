@@ -93,7 +93,7 @@ v. [[Ample sheaf]]
 
 **Pas 1.** *Treballem en l'adherència de $i(X)$, on podem aplicar el Serre's vanishing theorem.*
 
-Consider the closure $X \to \bar X \subseteq \mathbb{P}^n_A$. The sheaf $\mathcal{F}$ can be extended to a sheaf $\bar{\mathcal{F}} \in Coh(\bar{X})$. El [[Serre's vanishing theorem]] implica que $\overline{\mathcal{F}} \otimes \mathcal{O}(m)$ és globally generated per $m \geq m_0$ i alguna $m_0 > 0$.
+Consider the closure $X \to \bar X \subseteq \mathbb{P}^n_A$. The sheaf $\mathcal{F}$ can be extended to a sheaf $\bar{\mathcal{F}} \in Coh(\bar{X})$. El [[Serre's vanishing theorems]] implica que $\overline{\mathcal{F}} \otimes \mathcal{O}(m)$ és globally generated per $m \geq m_0$ i alguna $m_0 > 0$.
 
 **Pas 2.** *Tornem a $X$.*
 
@@ -113,7 +113,7 @@ Amb aquestes hipòtesis addicionals en $X_{s_i}$, podem aplicar la construcció 
 
 Això es dedueix de "Ample = Immersion into projective space":
 
-Suppose that $X \to Spec(A)$ is **proper**. By the cancellation property every immersion is a closed immersion (v. [[Properties of morphisms of schemes]]), so an invertible sheaf $\mathcal{L}$ is **ample** if, and only if, $\mathcal{L}^{\otimes n}$ is **very ample** for some $n>0$.
+Suppose that $X \to Spec(A)$ is **proper**. By the cancellation property every immersion is a closed immersion (v. [[Morphisms of schemes]]), so an invertible sheaf $\mathcal{L}$ is **ample** if, and only if, $\mathcal{L}^{\otimes n}$ is **very ample** for some $n>0$.
 
 # Exemples
 

@@ -4,6 +4,8 @@ La sheaf property implica que $d^2 = 0$.
 
 Es defineix la **cohomologia de Cech** com la cohomologia d'aquest complex de cocadenes.
 
+v. [[Algebraic geometry (Hartshorne)]] III.4.
+
 # Propietats
 
 ## Grau zero
@@ -14,8 +16,6 @@ La sheaf property implica que la diferencial en grau zero és zero, així que$$C
 Un cicle de grau 1 és una tupla $(s_{ij})_{i<j}$ de seccions de $U_{ij}$ (per cada $i<j$) que satisfan que, per tota $i<j<k$,$$s_{jk}|_{U_{ijk}} - s_{ik}|_{U_{ijk}} + s_{ij}|_{U_{ijk}} = 0,$$és a dir, que$$s_{ij}|_{U_{ijk}} + s_{jk}|_{U_{ijk}} = s_{ik}|_{U_{ijk}}.$$Aquesta és precisament la **cocycle condition** que garanteix que les seccions locals $(s_{ij})_{i<j}$ es poden enganxar per donar una secció global del feix.
 
 Com que no hi ha vores en grau 1 (ja que la diferencial en grau 0 és nul·la), $CH^1(\{U_i\}_i, \mathcal{F})$ són, precisament, les seccions en $\{U_{ij}\}_{ij}$ que enganxen bé.
-
-La primera cohomologia de Cech coincideix amb la cohomologia de feixos usual:$$CH^1(\{U_i\}_i,\mathcal{F}) \cong H^1(X, \mathcal{F}),$$sense necessitat de demanar cap condició addicional.
 
 ## LES en cohomologia de Cech induïda per una SES (cas molt particular!)
 
@@ -39,22 +39,26 @@ If $\mathcal{F}$ is flabby, then$$H^i(X,\mathcal{F}) = CH^i(\{U_i\}_i,\mathcal{F
 Sigui $\{U_i\}_i$ un recobriment per oberts de $X$, i $\mathcal{F}$ un feix en $X$. Existeix un morfisme de comparació$$CH^i(\{U_i\}_i,\mathcal{F}) \to H^i(X,\mathcal{F}),\quad i \geq 0.$$
 *Demostració.*
 
-El sheaf-theoretic Cech complex (v. [[Cech complex of sheaves]]) és una resolució de $\mathcal{F}$. També podem construir una resolució per injectius de $\mathcal{F}$ juntament amb un morfisme entre les dues resolucions. Aquest morfisme indueix el morfisme de comparació en cohomologia. (utilitzem que hi ha [[Enough injectives]])
+El sheaf-theoretic Cech complex (v. [[Cech resolution of sheaves]]) és una resolució de $\mathcal{F}$. També podem construir una resolució per injectius de $\mathcal{F}$ juntament amb un morfisme entre les dues resolucions. Aquest morfisme indueix el morfisme de comparació en cohomologia. (utilitzem que hi ha [[Enough injectives]])
 
 ***Cal veure:*** que no depèn de les eleccions. **qed**
 
 ## Quan la cohomologia de feixos en les interseccions és nul·la
 
-Let $\mathcal{F}$ be a sheaf on $X$, $\{U_i\}_i$ an open cover of $X$, and assume that$$H^p(U_{i_0} \cap \cdots \cap U_{i_p}, \mathcal{F}|_{U_{i_0} \cap \cdots \cap U_{i_p}}) = 0,\quad p > 0,\ i_0 < \cdots < i_p.$$
-Aleshores$$CH^p(\{U_i\}_i,\mathcal{F}) = H^p(X,\mathcal{F}).$$
-**Achtung!** Potser el resultat només és cert per $p>0$, no ho sé...
+Let $\mathcal{F}$ be a sheaf on $X$, $\{U_i\}_i$ an open cover of $X$, and assume that$$H^k(U_{i_0} \cap \cdots \cap U_{i_p}, \mathcal{F}|_{U_{i_0} \cap \cdots \cap U_{i_p}}) = 0,\quad k > 0,\ i_0 < \cdots < i_p.$$
+Aleshores$$CH^k(\{U_i\}_i,\mathcal{F}) = H^k(X,\mathcal{F})$$per tota $k$.
+
+v. [[Algebraic geometry (Hartshorne)]] Exercise III.4.11.
 
 *Proof.*
 
-Take the resolution $0 \to \mathcal{F} \to \mathcal{C}^\bullet$ of $\mathcal{F}$ given by the sheaf-theoretic Cech complex (v. [[Cech complex of sheaves]]).
+**Remark.** The case $k=0$ is always true. We can assume $k \geq 1$.
 
-By assumption (**no ho veig!**), for $p>0$, $q \geq 0$ we have that$$H^p(\mathcal{C}^q(\{U_i\}_i,\mathcal{F})) = 0.$$
-Hence, the resolution is a $\Gamma$-acyclic resolution of $\mathcal{F}$. This implies (v. [[Right derived functors]], "acyclicity is enouch") that$$H^p(X, \mathcal{C}^\bullet(\{U_i\}_i, \mathcal{F})) = H^p(\mathcal{C}^\bullet(\{U_i\}_i, \mathcal{F})) = CH^p(\{U_i\}_i,\mathcal{F}).$$**qed**
+Take the Cech resolution $0 \to \mathcal{F} \to \mathcal{C}^\bullet$ of $\mathcal{F}$ (v. [[Cech resolution of sheaves]]).
+
+Recall that $\mathcal{C}^p(\{U_i\}_i,\mathcal{F})$ is defined as$$\prod_{i_0<\cdots<i_p} (j_{i_0,\dots,i_p})_*(\mathcal{F}|_{U_{i_0,\dots,i_p}}),$$where $j_{i_0,\dots,i_p}: U_{i_0,\dots,i_p} \subseteq X$ is the inclusion. We can conclude (==Why????==) that$$H^k(\mathcal{C}^q(\{U_i\}_i,\mathcal{F})) = 0.$$
+
+Hence, the resolution is a $\Gamma$-acyclic resolution of $\mathcal{F}$. This implies (v. [[Right derived functors]], "acyclicity is enough") that$$H^p(X, \mathcal{C}^\bullet(\{U_i\}_i, \mathcal{F})) = H^p(\mathcal{C}^\bullet(\{U_i\}_i, \mathcal{F})) = CH^p(\{U_i\}_i,\mathcal{F}).$$**qed**
 
 # Exemples
 
