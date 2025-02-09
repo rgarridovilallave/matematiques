@@ -17,6 +17,8 @@ Un cicle de grau 1 és una tupla $(s_{ij})_{i<j}$ de seccions de $U_{ij}$ (per c
 
 Com que no hi ha vores en grau 1 (ja que la diferencial en grau 0 és nul·la), $CH^1(\{U_i\}_i, \mathcal{F})$ són, precisament, les seccions en $\{U_{ij}\}_{ij}$ que enganxen bé.
 
+En grau 1 s'assoleix l'isomorfisme en la versió coordinate-free v. [[Coordinate-free Cech cohomology]].
+
 ## LES en cohomologia de Cech induïda per una SES (cas molt particular!)
 
 Consider a short exact sequence of sheaves $0 \to \mathcal{F}_1 \to \mathcal{F}_2 \to \mathcal{F}_3 \to 0$, and let $\{U_i\}_i$ be an open covering of $X$ such that$$\mathcal{F}_2(U_{i_0} \cap \cdots \cap U_{i_p}) \to \mathcal{F}_3(U_{i_0} \cap \cdots \cap U_{i_p}),\quad i_0 < \cdots < i_p,$$is surjective. Then there's a long exact sequence$$0 \to CH^0(\{U_i\}_i, \mathcal{F}_1) \to CH^0(\{U_i\}_i, \mathcal{F}_2) \to CH^0(\{U_i\}_i, \mathcal{F}_3) \to CH^1(\{U_i\}_i, \mathcal{F}_1) \to CH^1(\{U_i\}_i, \mathcal{F}_2) \to CH^1(\{U_i\}_i, \mathcal{F}_3) \to \cdots.$$

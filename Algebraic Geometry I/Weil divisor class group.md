@@ -5,7 +5,7 @@ v. [[Algebraic geometry (Hartshorne)]] II.6. for more details.
 
 # Propietats
 
-## Surjectivity of the restriction map
+## Remove a closed subspace
 
 Assume $X$ satisfies #, and $Z \subsetneq X$ closed. Then the restriction map $Cl(X) \to Cl(X \setminus Z)$ is **surjective**.
 
@@ -15,13 +15,13 @@ It's well-defined because $K(X) = K(X \setminus Z)$.
 
 Surjectivity is because: If $W \subseteq X \setminus Z$ prime divisor, then $\bar W \subseteq X$ prime divisor. **qed**
 
-## Restriction when codimension >1
+## Remove a closed subspace of codimension >1
 
-If $codim(Z \subseteq X) > 1$, then $Cl(X) \cong Cl(X \setminus Z)$.
+Assume that $X$ satisfies #, and let $Z \subseteq X$ be closed. If $codim(Z \subseteq X) > 1$, then $Cl(X) \cong Cl(X \setminus Z)$.
 
 *Proof.* The groups $Cl$ and $Div$ depend only on subsets of codimension 1, so removing subsets of codimension $\geq 2$ doesn't change anything. **qed**
 
-## Exact sequence
+## Exact sequence: remove an irreducible prime divisor
 
 If $Z$ is an ==irreducible==, prime divisor, then there's an exact sequence$$\mathbb{Z} \to Cl(X) \to Cl(X \setminus Z) \to 0,$$where thre first arrow is given by $1 \mapsto Z$.
 
@@ -83,5 +83,5 @@ Let $k$ be a field. The Weil divisor class group of $\mathbb{P}^n_k$ is isomorph
 ## Projective space minus an irreducible hypersurface
 
 If $Y \subseteq \mathbb{P}^n_k$ is a degree $d$ irreducible hypersurface, its exact sequence gives$$\langle Y \rangle \to Cl(\mathbb{P}^n_k) \to Cl(\mathbb{P}^n_k\setminus Z) \to 0.$$
-We know that $Cl(\mathbb{P}^n_k) = \mathbb{Z} V_+(X_0)$, so the image of $Y$ in $Cl(\mathbb{P}^n_k)$ is (by the description of the class group of the projective space v. [[Projective space]]) $dV_+(X_0)$. It follows that$$Cl(\mathbb{P}^n_k\setminus Z) \cong Cl(\mathbb{P}^n_k)/dV_+(X_0) \cong \mathbb{Z}/d\mathbb{Z}.$$
+We know that $Cl(\mathbb{P}^n_k) = \mathbb{Z} V_+(X_0)$, and moreover the image of $Y$ in $Cl(\mathbb{P}^n_k)$ is (by the description of the class group of the projective space v. [[Projective space]]) $dV_+(X_0)$. It follows that$$Cl(\mathbb{P}^n_k\setminus Z) \cong Cl(\mathbb{P}^n_k)/dV_+(X_0) \cong \mathbb{Z}/d\mathbb{Z}.$$
 En particular s'observa que es recupera $Cl(\mathbb{A}^n_k) = Cl(\mathbb{P}^n_k \setminus \ell) = \mathbb{Z}/\mathbb{Z} = 0$.
